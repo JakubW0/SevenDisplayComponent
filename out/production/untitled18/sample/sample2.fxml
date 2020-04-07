@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane prefHeight="237.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <AnchorPane fx:id="componentPane" prefHeight="237.0" prefWidth="679.0">
+          <children>
+<AnchorPane fx:id="segment1kPane" prefHeight="224.0" prefWidth="134.0">
+    <children>
+        <Polygon fx:id="segmentA1k" fill="DODGERBLUE" layoutX="118.0" layoutY="82.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="14.0" />
+        <Polygon fx:id="segmentF1k" fill="DODGERBLUE" layoutX="68.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="55.0" />
+        <Polygon fx:id="segmentB1k" fill="DODGERBLUE" layoutX="167.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="55.0" />
+        <Polygon fx:id="segmentG1k" fill="DODGERBLUE" layoutX="118.0" layoutY="164.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="96.0" />
+        <Polygon fx:id="segmentE1k" fill="DODGERBLUE" layoutX="68.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="137.0" />
+        <Polygon fx:id="segmentC1k" fill="DODGERBLUE" layoutX="167.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="137.0" />
+        <Polygon fx:id="segmentD1k" fill="DODGERBLUE" layoutX="118.0" layoutY="246.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="178.0" />
+            <Circle fx:id="dot1k" fill="DODGERBLUE" layoutX="141.0" layoutY="204.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="195.0" />
+    </children>
+</AnchorPane>
+      <AnchorPane fx:id="segment100Pane" layoutX="165.0" layoutY="3.0" prefHeight="224.0" prefWidth="134.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Polygon fx:id="segmentA100" fill="DODGERBLUE" layoutX="118.0" layoutY="82.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="14.0" />
+            <Polygon fx:id="segmentF100" fill="DODGERBLUE" layoutX="68.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentB100" fill="DODGERBLUE" layoutX="167.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentG100" fill="DODGERBLUE" layoutX="118.0" layoutY="164.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="96.0" />
+            <Polygon fx:id="segmentE100" fill="DODGERBLUE" layoutX="68.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentC100" fill="DODGERBLUE" layoutX="167.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentD100" fill="DODGERBLUE" layoutX="118.0" layoutY="246.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="178.0" />
+            <Circle fx:id="dot100" fill="DODGERBLUE" layoutX="141.0" layoutY="204.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="195.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="segment10Pane" layoutX="330.0" layoutY="3.0" prefHeight="224.0" prefWidth="134.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Polygon fx:id="segmentA10" fill="DODGERBLUE" layoutX="118.0" layoutY="82.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="14.0" />
+            <Polygon fx:id="segmentF10" fill="DODGERBLUE" layoutX="68.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentB10" fill="DODGERBLUE" layoutX="167.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentG10" fill="DODGERBLUE" layoutX="118.0" layoutY="164.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="96.0" />
+            <Polygon fx:id="segmentE10" fill="DODGERBLUE" layoutX="68.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentC10" fill="DODGERBLUE" layoutX="167.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentD10" fill="DODGERBLUE" layoutX="118.0" layoutY="246.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="178.0" />
+            <Circle fx:id="dot10" fill="DODGERBLUE" layoutX="141.0" layoutY="204.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="195.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="segment1Pane" layoutX="491.0" layoutY="7.0" prefHeight="224.0" prefWidth="134.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Polygon fx:id="segmentA1" fill="DODGERBLUE" layoutX="118.0" layoutY="82.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="14.0" />
+            <Polygon fx:id="segmentF1" fill="DODGERBLUE" layoutX="68.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentB1" fill="DODGERBLUE" layoutX="167.0" layoutY="123.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="55.0" />
+            <Polygon fx:id="segmentG1" fill="DODGERBLUE" layoutX="118.0" layoutY="164.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="96.0" />
+            <Polygon fx:id="segmentE1" fill="DODGERBLUE" layoutX="68.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentC1" fill="DODGERBLUE" layoutX="167.0" layoutY="205.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="137.0" />
+            <Polygon fx:id="segmentD1" fill="DODGERBLUE" layoutX="118.0" layoutY="246.0" points="-68.0, -52.0, -50.0, -35.0, -5.0, -35.0, 13.0, -52.0, -5.0, -68.0, -50.0, -68.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="178.0" />
+            <Circle fx:id="dot1" fill="DODGERBLUE" layoutX="141.0" layoutY="204.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="195.0" />
+         </children>
+      </AnchorPane>
+     </children>
+    </AnchorPane>
+    </children>
+</AnchorPane>
